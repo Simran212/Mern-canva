@@ -11,6 +11,7 @@ class authController {
         password = password.trim()
         name = name.trim()
         try {
+            
             const get_user = await userModel.findOne({ email }).select('+password')
 
             if (get_user) {

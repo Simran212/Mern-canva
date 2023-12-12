@@ -13,13 +13,13 @@ import Zoom from './components/Zoom'
 const router = createBrowserRouter(
   [{
     path:"/",
-    element: <Layout/>,
+    //element: <Layout/>,
     //element: <Projects/>,
-    //element:<Main/>,
+    element:<Main/>,
     children: [
       {
         path: '/',
-        element: <Zoom/>
+      //  element: <Zoom/>
       }]
   }]
 )

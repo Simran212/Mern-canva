@@ -247,7 +247,7 @@ const Main = () => {
             height: 150,
             rotate,
             z_index: 2,
-            ratius: 0,
+            radius: 0,
             image: img,
             setCurrentComponent: (a) => setCurrentComponent(a),
             moveElement,
@@ -420,6 +420,7 @@ const Main = () => {
                                     {
                                         components.map((c, i) => <CreateComponente key={i} info={c} current_component={current_component} removeComponent={removeComponent} />)
                                     }
+        
                                 </div>
                             </div>
                         </div>
