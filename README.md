@@ -32,3 +32,5 @@ application.
 - Implemented using HTTP methods like GET, POST, PUT,
 and DELETE.
 
+![Canvas App](<img width="1440" alt="Screenshot 2024-01-03 at 12 16 53 PM" src="https://github.com/Simran212/canvas/assets/69590139/05e67020-99cb-43ff-a0d7-5c0c5e44182f">
+)
